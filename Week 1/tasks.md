@@ -21,3 +21,8 @@
 </ul>
 
 
+```
+Пример:     ime ≠ Ime ≠ IME                     for ≠ For ≠ FOR
+```
+
+
