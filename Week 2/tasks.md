@@ -42,10 +42,10 @@
 ## Task 6 - Главни и малки букви
 ### По въведен символ между a и z или A и Z да се определи главна ли е буквата или малка
 
-#### **Примерен изход при а: Lower case letter
-#### **Примерен изход при t: Lower case letter
-#### **Примерен изход при T: Upper case letter
-#### **Примерен при 8: The character is NOT a letter
+#### Примерен изход при а: Lower case letter
+#### Примерен изход при t: Lower case letter
+#### Примерен изход при T: Upper case letter
+#### Примерен при 8: The character is NOT a letter
  
 
 
