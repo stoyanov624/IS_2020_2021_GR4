@@ -58,7 +58,7 @@
     <p> <strong> Примерен изход при а: </strong> Lower case letter </p>
     <p> <strong> Примерен изход при t: </strong> Lower case letter </p>
     <p> <strong> Примерен изход при T: </strong> Upper case letter </p>
-    <p> <strong> Примерен при 8: </strong> The charachter is NOT a letter </p>
+    <p> <strong> Примерен при 8: </strong> The character is NOT a letter </p>
   </li>
   
 </ul>
