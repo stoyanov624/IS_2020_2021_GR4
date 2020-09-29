@@ -51,16 +51,6 @@
     <p> <strong> Примерен изход при T: </strong> Upper case letter </p>
     <p> <strong> Примерен при 8: </strong> The charachter is NOT a letter </p>
   </li>
-  
-  <li>
-    <h2> Task 6 - Главни и малки букви </h2>
-    <p> По въведен символ между a и z или A и Z да се определи главна ли е буквата или малка </p>
-    <p> <strong> Примерен изход при а: </strong> Lower case letter </p>
-    <p> <strong> Примерен изход при t: </strong> Lower case letter </p>
-    <p> <strong> Примерен изход при T: </strong> Upper case letter </p>
-    <p> <strong> Примерен при 8: </strong> The character is NOT a letter </p>
-  </li>
-  
 </ul>
 
 
