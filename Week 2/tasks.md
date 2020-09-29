@@ -26,12 +26,39 @@
   </li>
   
   <li>
-    <h2> Task 3 - Квадранти </h2>
+    <h2> Task 4 - Квадранти </h2>
     <p> По въведени координати на точка А, x и у (т.е А(x, y)) да се определи по координатна система в кой квадрант лежи.  </p>
     <p> <strong> Примерен изход при x = 4 у = -3 : </strong> Forth </p>
     <p> <strong> Примерен изход при x = 4 у = 3 : </strong> First </p>
     <p> <strong> Примерен изход при x = -4 у = 3 : </strong> Second </p>
     <p> <strong> Примерен изход при x = -4 у = -3 : </strong> Third </p>
+  </li>
+  
+  <li>
+    <h2> Task 5 - Високосна година </h2>
+    <p> По въведена година да се провери дали е високосна </p>
+    <p> <strong> Примерен изход при 2020: </strong> The year is leap </p>
+    <p> <strong> Примерен изход при 2003: </strong> The year is not leap </p>
+    <p> <strong> Примерен изход при 2000: </strong> The year is leap </p>
+    <p> <strong> Примерен изход при 1900: </strong> The year is not leap </p>
+  </li>
+  
+  <li>
+    <h2> Task 6 - Главни и малки букви </h2>
+    <p> По въведен символ между a и z или A и Z да се определи главна ли е буквата или малка </p>
+    <p> <strong> Примерен изход при а: </strong> Lower case letter </p>
+    <p> <strong> Примерен изход при t: </strong> Lower case letter </p>
+    <p> <strong> Примерен изход при T: </strong> Upper case letter </p>
+    <p> <strong> Примерен при 8: </strong> The charachter is NOT a letter </p>
+  </li>
+  
+  <li>
+    <h2> Task 6 - Главни и малки букви </h2>
+    <p> По въведен символ между a и z или A и Z да се определи главна ли е буквата или малка </p>
+    <p> <strong> Примерен изход при а: </strong> Lower case letter </p>
+    <p> <strong> Примерен изход при t: </strong> Lower case letter </p>
+    <p> <strong> Примерен изход при T: </strong> Upper case letter </p>
+    <p> <strong> Примерен при 8: </strong> The charachter is NOT a letter </p>
   </li>
   
 </ul>
