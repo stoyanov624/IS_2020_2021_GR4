@@ -8,7 +8,10 @@
 
 # Първи стъпки в програмирането - IDE
 
-![](images/visual-studio.jpg) ![](images/visual-studio-code.png) ![](images/codeblocks.png)
+![](images/visual-studio.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](images/visual-studio-code.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+![](images/codeblocks.png)
+
 
 ## Какво е IDE?
 За да може да напишем програмите, които искаме първо ни трябва IDE или Интегрираната среда за разработка e софтуерно приложение, което предоставя цялостна среда за разработване на софтуер на програмистите. За нашите програми препоръчваме Visual Studio или Visual Studio Code! (CodeBlocks също е вариант)
