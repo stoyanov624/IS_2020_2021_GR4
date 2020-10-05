@@ -50,3 +50,5 @@
 **Примерен изход при вход 4 :** The creeper's volume is 176
 
 **Примерен изход при вход 10 :** The creeper's volume is 2750
+
+![](images/image for task 6.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
