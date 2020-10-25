@@ -36,12 +36,19 @@
 
 **Примерен изход при вход 8 F:** 
 F F F F F F F F
+
 F             F
+
 F F           F
+
 F F F         F
+
 F F F F       F
+
 F F F F F     F
+
 F F F F F F   F
+
 F F F F F F F F
 
 ## Task 5 - 
