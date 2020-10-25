@@ -35,6 +35,7 @@
 ### Да се напише програма, която чертае квадрат от '*' със размер на страната въведен от клавиатурата. Нека е изпълнен само под главния диагонал.
 
 **Примерен изход при вход 8 F:** 
+
 ![](images/square.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Task 5 - 
