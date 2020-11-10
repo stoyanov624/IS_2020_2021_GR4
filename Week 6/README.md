@@ -114,81 +114,6 @@ int hours[100];
         cout << "arr[ " << i << " ]= " << arr[i] << endl;
     }
 ```
-
-## Символен низ(C-Style string/string)
-Масив от тип char се нарича  **символен низ**. 
-Примери:
-​    
-     "Informacionni sistemi"
-     "My name is Mery"
-     "" // празен низ
-     "My name" // подниз на "My name is Mery"
-
-Низовете се използват за образуване на изречения на някой език, обработка на текстове, кодиране на информация, кодиране на команди и други.
-
-### Декларане на символен низ
-При декларирането на низ, трябва да се предвиди място за още един символ: \0 - null символ(означава край на низ). Този символ не се отпечатва, той просто дава нужната информация на компилатора.
-
-    char str[100]; - така декларираме масив от тип char със 100 елемента
-
-Броят на емементите може да бъде зададен и чрез константа, която е предварително дефинирана;
-```c++
-    const int SIZE = 3;
-    char key[SIZE];
-```
-**Достъпът** до всеки елемент, както при другите масиви, се осъщесвява, чрез индексирана променлива, в която са указани **името на масива** и **индексът**(поредният номер на елемента в масива) поставен в квадратни скоби.
-```c++
-    key[0]; // индексирането в масиви е от 0 до броя на елементите -1
-```
-
-### sizeof()
-Sizeof е оператор, който ни показва колко памет(в байтове) заема дадена променлива от съответен тип. 
-```c++
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    cout << "bool:\t" << sizeof(bool) << " bytes" << endl;
-    cout << "char:\t" << sizeof(char) << " bytes" << endl;
-    cout << "short:\t" << sizeof(short) << " bytes" << endl;
-    cout << "int:\t" << sizeof(int) << " bytes" << endl;
-    cout << "long:\t" << sizeof(long) << " bytes" << endl;
-    cout << "float:\t" << sizeof(float) << " bytes" << endl;
-    cout << "double:\t" << sizeof(double) << " bytes" << endl;
-    cout << "long double:\t" << sizeof(long double) << " bytes" << endl;
-    
-    return 0;
-}
-    
-```
-
-	bool:		1 bytes
-	char:		1 bytes
-	short:		2 bytes
-	int:		4 bytes
-	long:		8 bytes
-	float:		4 bytes
-	double:		8 bytes
-	long double: 	16 bytes
-
-Когато използваме sizeof() върху масив, отново получаваме размера в байтове. Например, ако масива ни е от тип char и е с големина 100 елемента, то неговият размер е 100 елемента * 1 байт = 100 байта.
-```c++
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    int arr[100];
-    char str[100];
-	
-    cout << sizeof(arr) << " bytes" << endl;
-    cout << sizeof(str) << " bytes" << endl;
-    
-    return 0;
-}
-```
-
 ## Многомерни масиви (Multidimensional array)
 Масивът е структурен (съставен) тип данни, представляващ крайна редица от еднотипни елементи с **пряк достъп до всеки елемент**. 
 **Многомерните масиви** обикновено се описват като **"масиви от масиви"**, но за да можем по-лесно да си го представим, 
@@ -328,3 +253,78 @@ int array[][] =
         cout << endl;
     }
 ```
+
+## Символен низ(C-Style string/string)
+Масив от тип char се нарича  **символен низ**. 
+Примери:
+​    
+     "Informacionni sistemi"
+     "My name is Mery"
+     "" // празен низ
+     "My name" // подниз на "My name is Mery"
+
+Низовете се използват за образуване на изречения на някой език, обработка на текстове, кодиране на информация, кодиране на команди и други.
+
+### Декларане на символен низ
+При декларирането на низ, трябва да се предвиди място за още един символ: \0 - null символ(означава край на низ). Този символ не се отпечатва, той просто дава нужната информация на компилатора.
+
+    char str[100]; - така декларираме масив от тип char със 100 елемента
+
+Броят на емементите може да бъде зададен и чрез константа, която е предварително дефинирана;
+```c++
+    const int SIZE = 3;
+    char key[SIZE];
+```
+**Достъпът** до всеки елемент, както при другите масиви, се осъщесвява, чрез индексирана променлива, в която са указани **името на масива** и **индексът**(поредният номер на елемента в масива) поставен в квадратни скоби.
+```c++
+    key[0]; // индексирането в масиви е от 0 до броя на елементите -1
+```
+
+### sizeof()
+Sizeof е оператор, който ни показва колко памет(в байтове) заема дадена променлива от съответен тип. 
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "bool:\t" << sizeof(bool) << " bytes" << endl;
+    cout << "char:\t" << sizeof(char) << " bytes" << endl;
+    cout << "short:\t" << sizeof(short) << " bytes" << endl;
+    cout << "int:\t" << sizeof(int) << " bytes" << endl;
+    cout << "long:\t" << sizeof(long) << " bytes" << endl;
+    cout << "float:\t" << sizeof(float) << " bytes" << endl;
+    cout << "double:\t" << sizeof(double) << " bytes" << endl;
+    cout << "long double:\t" << sizeof(long double) << " bytes" << endl;
+    
+    return 0;
+}
+    
+```
+
+	bool:		1 bytes
+	char:		1 bytes
+	short:		2 bytes
+	int:		4 bytes
+	long:		8 bytes
+	float:		4 bytes
+	double:		8 bytes
+	long double: 	16 bytes
+
+Когато използваме sizeof() върху масив, отново получаваме размера в байтове. Например, ако масива ни е от тип char и е с големина 100 елемента, то неговият размер е 100 елемента * 1 байт = 100 байта.
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[100];
+    char str[100];
+	
+    cout << sizeof(arr) << " bytes" << endl;
+    cout << sizeof(str) << " bytes" << endl;
+    
+    return 0;
+}
+```
+
