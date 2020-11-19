@@ -14,7 +14,7 @@
 ```
 1 row - 2  
 2 row - 5  
-3 row - 3
+3 row - 6
 
 1 col - 4  
 2 col - 4  
