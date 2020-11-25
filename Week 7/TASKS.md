@@ -97,7 +97,7 @@ Below Diagonal - 109
 
 5
 ```
-Positions - (1, 1) (2, 2)
+Positions - (1, 1) (2, 1)
 
 ```
 5
