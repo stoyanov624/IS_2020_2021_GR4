@@ -83,7 +83,7 @@ Below Diagonal - 9
 0 3 8 23 3
 22 67 34 23 7
 ```
-Above Diagonal - 33  
+Above Diagonal - 34  
 Below Diagonal - 40
 
 ## Task 4 - Search
