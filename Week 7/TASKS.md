@@ -72,8 +72,8 @@ Min is -40
 4 5 6
 7 5 6
 ```
-Above Diagonal - 6  
-Below Diagonal - 11
+Above Diagonal - 8
+Below Diagonal - 9
 
 ```
 5
@@ -83,8 +83,8 @@ Below Diagonal - 11
 0 3 8 23 3
 22 67 34 23 7
 ```
-Above Diagonal - 15  
-Below Diagonal - 109
+Above Diagonal - 33  
+Below Diagonal - 40
 
 ## Task 4 - Search
 ###  По въведени двумерна матрица и число да се провери дали числото се намира някъде в матрицата и ако се намери да изведат всички позиции. 
