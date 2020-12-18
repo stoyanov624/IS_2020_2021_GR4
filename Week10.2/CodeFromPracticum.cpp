@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//alo da
+
 void resize(int *&arr,int &capacity, int size) {
 	capacity *= 2;
 	int *biggerArr = new int[capacity];
@@ -29,7 +29,7 @@ void printArray(const int* arr, int size) {
 	for (int i = 0; i < size; i++) {
 		cout << arr[i];
 	}
-}//Причината за която искаме да го изтрием,е защото искаме да го изтрием-Ивайло 2020
+}
 void copy(int *&arrayMimi,int &sizeOne, int &capacityOne, int sizeTwo, int capacityTwo, int arrMimiTwo[])
 {
 	delete[] arrayMimi;
@@ -40,7 +40,7 @@ void copy(int *&arrayMimi,int &sizeOne, int &capacityOne, int sizeTwo, int capac
 	{
 		arrayMimi[i] = arrMimiTwo[i];
 	}
-print}
+}
 int main()
 { 
 	int capacity = 8;
