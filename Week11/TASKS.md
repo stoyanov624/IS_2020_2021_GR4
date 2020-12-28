@@ -23,7 +23,7 @@ countLetters("Happy new year") => 12
 
 `Пример:`
 ```C++
-invert(1123) => 3211
+reverse(1123) => 3211
 ```
 
 ## TASK  3
