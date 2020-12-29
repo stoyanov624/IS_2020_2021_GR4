@@ -85,19 +85,6 @@ swapcase("Yellow Submarine") => yELLOW sUBMARINE
 ```
 
 ## TASK 8
-Напишете рекурсивна функция с прототип `void findWords(const char*)`, която намира
-най-дългата и най-късата дума от дадения низ. Ако има две или
-повече думи с еднаква дължина, които са най-къси или най-дълги,
-да се изпечата последната намерена дума
-
-`Пример:`
-``` C++
-findWords("yesterday love was such an easy game to play")
-      => Най-дълга дума: yesterday
-         Най-къса дума: to
-```
-
-## TASK 9
  Напишете функция с прототип `void truncate(char* src, int n)`, която скъсява
 подадения низ до низ с дължина n. Ако низът вече е по-къс от n, той
 не трябва да се модифицира
@@ -107,7 +94,7 @@ findWords("yesterday love was such an easy game to play")
 truncate("The Dark Knight Rises", 15 ) => The Dark Knight
 ```
 
-## TASK 10
+## TASK 9
 
 Да се напише рекурсивна функция, която намира n-тото число от редицата на Фибоначи.
 
@@ -115,7 +102,7 @@ truncate("The Dark Knight Rises", 15 ) => The Dark Knight
 fib(10) => 55
 ```
 
-## TASK 11
+## TASK 10
 Да се напише рекурсивна функция, която намира стойността  на  функцията на Акерман Ack(m, n), дефинирана за m >= 0 и n >= 0 по следния начин:  
 		Ack(0, n) = n+1  
 		Ack(m, 0) = Ack(m-1, 1), m > 0  
