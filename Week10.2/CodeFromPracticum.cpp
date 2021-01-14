@@ -27,8 +27,9 @@ void pushBack(int*& arr, int &size,int &capacity ,int number) {
 
 void printArray(const int* arr, int size) {
 	for (int i = 0; i < size; i++) {
-		cout << arr[i];
+		cout << arr[i] << " ";
 	}
+	cout << endl;
 }
 void copy(int *&arrayMimi,int &sizeOne, int &capacityOne, int sizeTwo, int capacityTwo, int arrMimiTwo[])
 {
@@ -41,6 +42,35 @@ void copy(int *&arrayMimi,int &sizeOne, int &capacityOne, int sizeTwo, int capac
 		arrayMimi[i] = arrMimiTwo[i];
 	}
 }
+
+void popBack(int* arr, int& size) {
+	if(size <= 0) {
+		cout << "No elements found\n";
+		return;
+	}
+
+	size--;
+}
+
+void swap(int& element1, int& element2) {
+	int temp = element1;
+	element1 = element2;
+	element2 = temp;
+}
+
+void popFront(int* arr, int& size) {
+	if(size <= 0) {
+		cout << "No elelemts found\n";
+		return;
+	}
+
+	for (int i = 1; i < size; i++) {
+		swap(arr[i],arr[i - 1]);
+	}
+
+	size--;
+	
+}
 int main()
 { 
 	int capacity = 8;
@@ -50,22 +80,13 @@ int main()
 	pushBack(arr, size, capacity, 3);
 	pushBack(arr, size, capacity, 2);
 	pushBack(arr, size, capacity, 5);
-	pushBack(arr, size, capacity, 123);
-	pushBack(arr, size, capacity, 1213);
-	pushBack(arr, size, capacity, 12);
-	pushBack(arr, size, capacity, 56);
-	pushBack(arr, size, capacity, 73);
-	pushBack(arr, size, capacity, 9);
-	pushBack(arr, size, capacity, 0);
 
-	int otherCapacity = 5;
-	int otherSize = 3;
-	int arr2[5] = { 1,2,3 };
-
-	printArray(arr, size);
-	copy(arr, size, capacity, otherSize, otherCapacity, arr2);
 	
 	printArray(arr, size);
+
+	popFront(arr,size);
+
+	printArray(arr,size);
 
 
 }
